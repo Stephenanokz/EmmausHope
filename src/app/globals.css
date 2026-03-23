@@ -1,26 +1,127 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #fffaf5;
+  --foreground: #1f2937;
+  --brand-orange: #ea580c;
+  --brand-blue: #2563eb;
+  --surface: #ffffff;
+  --muted: #fff1e8;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-brand-orange: var(--brand-orange);
+  --color-brand-blue: var(--brand-blue);
+  --color-surface: var(--surface);
+  --color-muted: var(--muted);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-display: var(--font-playfair);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), sans-serif;
+  text-rendering: optimizeLegibility;
+  background-image:
+    radial-gradient(circle at top left, rgba(234, 88, 12, 0.12), transparent 28%),
+    radial-gradient(circle at top right, rgba(37, 99, 235, 0.1), transparent 30%),
+    linear-gradient(180deg, #fffaf5 0%, #ffffff 30%, #f8fbff 100%);
+}
+
+::selection {
+  background: rgba(234, 88, 12, 0.18);
+  color: #111827;
+}
+
+a[href],
+button,
+[role="button"] {
+  @apply cursor-pointer;
+}
+
+a,
+button,
+input,
+textarea {
+  transition:
+    color 180ms ease,
+    background-color 180ms ease,
+    border-color 180ms ease,
+    box-shadow 180ms ease,
+    transform 180ms ease,
+    opacity 180ms ease;
+}
+
+.text-gradient {
+  background-image: linear-gradient(120deg, var(--brand-orange), var(--brand-blue));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.section-shell {
+  @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+}
+
+.card-surface {
+  @apply rounded-3xl border border-white/70 bg-white/90 shadow-[0_18px_50px_-24px_rgba(15,23,42,0.35)] backdrop-blur;
+}
+
+.focus-ring {
+  @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500/60 focus-visible:ring-offset-2;
+}
+
+.sr-only-focusable {
+  @apply sr-only;
+}
+
+.sr-only-focusable:focus,
+.sr-only-focusable:focus-visible {
+  clip: auto;
+  width: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: fixed;
+  white-space: normal;
+}
+
+.story-rich-content {
+  @apply text-base leading-8 text-slate-700;
+}
+
+.story-rich-content h2 {
+  @apply mt-10 font-display text-3xl text-slate-950;
+}
+
+.story-rich-content p {
+  @apply mt-5;
+}
+
+.story-rich-content ul {
+  @apply mt-5 list-disc space-y-3 pl-6;
+}
+
+.story-rich-content li {
+  @apply pl-1;
+}
+
+.story-rich-content blockquote {
+  @apply mt-8 rounded-3xl border border-orange-100 bg-gradient-to-r from-orange-50 to-blue-50 px-6 py-5 font-display text-2xl leading-relaxed text-slate-950;
+}
+
+.story-rich-content a {
+  @apply font-semibold text-orange-700 underline decoration-orange-300 underline-offset-4;
 }

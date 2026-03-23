@@ -1,65 +1,129 @@
+import type { Metadata } from "next";
+import Link from "next/link";
 import Image from "next/image";
+import { iconMap } from "@/lib/icon-map";
+import { sdgAlignment } from "@/lib/content";
+import { AboutSummary } from "@/components/sections/AboutSummary";
+import { FocusAreas } from "@/components/sections/FocusAreas";
+import { GetInvolvedCTA } from "@/components/sections/GetInvolvedCTA";
+import { HeroCarousel } from "@/components/sections/HeroCarousel";
+import { ImpactSection } from "@/components/sections/ImpactSection";
+import { ProgramsPreview } from "@/components/sections/ProgramsPreview";
+import { ImageFeatureSection } from "@/components/ui/ImageFeatureSection";
+import { Reveal } from "@/components/ui/Reveal";
+import { SectionHeading } from "@/components/ui/SectionHeading";
+import { StaggerGrid } from "@/components/ui/StaggerGrid";
+
+export const metadata: Metadata = {
+  title: "Emmaus Hope Foundation",
+  description:
+    "Emmaus Hope Foundation uplifts poor and vulnerable communities through poverty reduction, hunger relief, education support, empowerment, and partnerships.",
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    title: "Home | Emmaus Hope Foundation",
+    description:
+      "Emmaus Hope Foundation uplifts poor and vulnerable communities through poverty reduction, hunger relief, education support, empowerment, and partnerships.",
+    url: "/",
+  },
+};
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    <>
+      <HeroCarousel />
+      <AboutSummary />
+      <FocusAreas />
+      <section className="pb-24">
+        <div className="section-shell">
+          <ImageFeatureSection
+            eyebrow="Responsive Care"
+            title="Relief matters most when it is timely, thoughtful, and connected to a longer horizon of recovery"
+            description="Our work moves from emergency response toward more stable and sustainable pathways that help households and communities regain confidence and momentum."
+            image="https://images.unsplash.com/photo-1509099836639-18ba1795216d?auto=format&fit=crop&w=1200&q=80"
+            alt="Children and families receiving support in a community setting"
+            reverse
+            surfaceClassName="from-white via-blue-50/65 to-cyan-50/55"
+            overlayClassName="bg-gradient-to-t from-blue-950/35 via-transparent to-transparent"
+            eyebrowClassName="text-blue-700"
+          />
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+      </section>
+      <ProgramsPreview />
+
+      {/* Founder preview */}
+      <section className="py-20 sm:py-24">
+        <div className="section-shell">
+          <Reveal>
+            <div className="card-surface overflow-hidden border-orange-100/70 bg-gradient-to-br from-white via-orange-50/60 to-blue-50/70">
+              <div className="grid gap-0 lg:grid-cols-[0.45fr_0.55fr]">
+                <div className="relative min-h-[320px] sm:min-h-[400px]">
+                  <Image
+                    src="/images/founder/founder.jpg"
+                    alt="Fr. Peter Tule Amaya-Akpala, OP — Founder of Emmaus Hope Foundation"
+                    fill
+                    className="object-cover"
+                    sizes="(min-width: 1024px) 40vw, 100vw"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-slate-950/40 via-transparent to-transparent lg:bg-gradient-to-r lg:from-transparent lg:to-slate-950/10" />
+                </div>
+                <div className="px-6 py-8 sm:px-8 sm:py-10 lg:px-10 lg:py-12">
+                  <p className="text-sm font-semibold uppercase tracking-[0.22em] text-orange-600">
+                    Meet Our Founder
+                  </p>
+                  <h2 className="mt-3 font-display text-3xl text-slate-950 sm:text-4xl lg:text-5xl">
+                    Fr. Peter Tule Amaya-Akpala, OP
+                  </h2>
+                  <p className="mt-5 text-base leading-8 text-slate-600 sm:text-lg">
+                    Fr. Peter Tule Amaya-Akpala, OP, is a Catholic Dominican priest dedicated to serving the poor and restoring hope. Inspired by Christ&apos;s encounter on the road to Emmaus, he founded Emmaus Hope Foundation to walk with the vulnerable and transform lives.
+                  </p>
+                  <Link
+                    href="/founder"
+                    className="focus-ring mt-6 inline-flex items-center gap-2 rounded-full bg-slate-950 px-6 py-3 text-sm font-semibold text-white hover:-translate-y-0.5 hover:bg-slate-800"
+                  >
+                    Read Full Story
+                    <span aria-hidden="true">&rarr;</span>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </Reveal>
         </div>
-      </main>
-    </div>
+      </section>
+      <section className="py-20 sm:py-24">
+        <div className="section-shell">
+          <Reveal>
+            <div className="card-surface overflow-hidden border-orange-100 bg-gradient-to-br from-orange-50 via-white to-blue-50 px-6 py-10 sm:px-10">
+              <SectionHeading
+                eyebrow="Global Alignment"
+                title="Guided by the Sustainable Development Goals"
+                description="Our work aligns local compassion with global priorities so that relief today contributes to stronger, more resilient communities tomorrow."
+              />
+              <StaggerGrid className="mt-10 grid gap-5 md:grid-cols-2 xl:grid-cols-3">
+                {sdgAlignment.map((goal) => {
+                  const Icon = iconMap[goal.icon];
+
+                  return (
+                    <article
+                      key={goal.title}
+                      className="rounded-3xl border border-white/80 bg-white/90 p-6 shadow-[0_16px_40px_-28px_rgba(37,99,235,0.4)]"
+                    >
+                      <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-orange-500 to-blue-600 text-white shadow-lg shadow-orange-500/20">
+                        <Icon className="h-6 w-6" aria-hidden="true" />
+                      </div>
+                      <h3 className="font-display text-2xl text-slate-900">{goal.title}</h3>
+                      <p className="mt-3 text-sm leading-7 text-slate-600">{goal.description}</p>
+                    </article>
+                  );
+                })}
+              </StaggerGrid>
+            </div>
+          </Reveal>
+        </div>
+      </section>
+      <ImpactSection />
+      <GetInvolvedCTA />
+    </>
   );
 }
