@@ -8,12 +8,12 @@ import { Resend } from "resend";
 export const resend = new Resend(process.env.RESEND_API_KEY);
 
 /** The email address that receives form submissions. */
-export const RECIPIENT_EMAIL = "info@emmaushopefoundation.org";
+export const RECIPIENT_EMAIL = "info@emmauscarefoundation.org";
 
 /**
  * The sender address. Use "onboarding@resend.dev" while testing
  * and switch to your verified domain later, e.g.
- * "noreply@emmaushopefoundation.org"
+ * "noreply@emmauscarefoundation.org"
  */
 export const SENDER_EMAIL =
-  process.env.RESEND_FROM_EMAIL ?? "Emmaus Hope Foundation <onboarding@resend.dev>";
+  process.env.RESEND_FROM_EMAIL ?? "Emmaus Care Foundation <onboarding@resend.dev>";

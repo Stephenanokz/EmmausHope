@@ -133,10 +133,10 @@ export function HeroCarousel() {
                   Faith-Based Humanitarian Action
                 </p>
                 <h1 className="mt-3 font-display text-3xl leading-tight text-white sm:mt-5 sm:text-6xl lg:text-7xl [@media(min-width:640px)_and_(max-height:820px)]:mt-3 [@media(min-width:640px)_and_(max-height:820px)]:text-6xl lg:[@media(max-height:820px)]:text-7xl">
-                  Emmaus Hope Foundation
+                  Emmaus Care Foundation
                 </h1>
                 <p className="mt-3 max-w-2xl text-base font-semibold leading-7 text-orange-200 sm:mt-5 sm:text-2xl sm:leading-9 [@media(min-width:640px)_and_(max-height:820px)]:mt-3 [@media(min-width:640px)_and_(max-height:820px)]:text-xl [@media(min-width:640px)_and_(max-height:820px)]:leading-8">
-                  Leaving No One Behind — By Giving Them Hope
+                  Leaving No One Behind — By Giving Them Care
                 </p>
                 <p className="mt-3 hidden max-w-2xl text-base leading-8 text-white/85 sm:mt-5 sm:block sm:text-lg [@media(min-width:640px)_and_(max-height:820px)]:mt-3 [@media(min-width:640px)_and_(max-height:820px)]:text-base [@media(min-width:640px)_and_(max-height:820px)]:leading-7 [@media(min-width:640px)_and_(max-height:560px)]:hidden">
                   A faith-based non-profit committed to restoring hope, protecting human dignity, and improving the lives of poor and vulnerable persons through sustainable humanitarian and development initiatives.

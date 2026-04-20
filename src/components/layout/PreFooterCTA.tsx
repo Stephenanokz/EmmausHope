@@ -10,7 +10,7 @@ export function PreFooterCTA() {
               Join The Mission
             </p>
             <h2 className="mt-3 font-display text-3xl sm:text-4xl lg:text-5xl">
-              Help Emmaus Hope Foundation restore hope with practical, dignified action.
+              Help Emmaus Care Foundation restore hope with practical, dignified action.
             </h2>
             <p className="mt-5 text-base leading-8 text-white/90">
               Whether you give, volunteer, or partner, your support helps vulnerable communities experience care that is compassionate, accountable, and built to last.

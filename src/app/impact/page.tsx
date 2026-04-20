@@ -12,14 +12,14 @@ import { StaggerGrid } from "@/components/ui/StaggerGrid";
 export const metadata: Metadata = {
   title: "Impact",
   description:
-    "See the impact vision of Emmaus Hope Foundation and how our programs restore hope, promote dignity, and strengthen communities.",
+    "See the impact vision of Emmaus Care Foundation and how our programs restore hope, promote dignity, and strengthen communities.",
   alternates: {
     canonical: "/impact",
   },
   openGraph: {
-    title: "Impact | Emmaus Hope Foundation",
+    title: "Impact | Emmaus Care Foundation",
     description:
-      "See the impact vision of Emmaus Hope Foundation and how our programs restore hope, promote dignity, and strengthen communities.",
+      "See the impact vision of Emmaus Care Foundation and how our programs restore hope, promote dignity, and strengthen communities.",
     url: "/impact",
   },
 };
@@ -29,7 +29,7 @@ export default function ImpactPage() {
     <>
       <PageHero
         eyebrow="Impact"
-        title="Restoring Hope Transforming Lives"
+        title="Restoring Care Transforming Lives"
         description="Our impact vision centers on practical compassion, measurable community support, and long-term dignity for vulnerable persons."
       />
 
@@ -38,7 +38,7 @@ export default function ImpactPage() {
           <ImageFeatureSection
             eyebrow="Impact Vision"
             title="Impact is measured not only by activity, but by lives strengthened with dignity and hope"
-            description="Emmaus Hope Foundation seeks outcomes that are practical, humane, and lasting. We want communities to feel the difference in everyday life through relief, inclusion, education, empowerment, and strengthened solidarity."
+            description="Emmaus Care Foundation seeks outcomes that are practical, humane, and lasting. We want communities to feel the difference in everyday life through relief, inclusion, education, empowerment, and strengthened solidarity."
             image="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&w=1200&q=80"
             alt="Community members gathered during a humanitarian outreach"
             surfaceClassName="from-white via-orange-50/60 to-amber-50/50"
@@ -112,7 +112,7 @@ export default function ImpactPage() {
             <div className="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
               <div className="max-w-3xl mb-4">
                 <p className="text-sm font-semibold uppercase tracking-[0.22em] text-orange-600">Success Stories</p>
-                <h2 className="mt-3 font-display text-3xl text-slate-950 sm:text-4xl lg:text-5xl">Stories that reflect hope in motion</h2>
+                <h2 className="mt-3 font-display text-3xl text-slate-950 sm:text-4xl lg:text-5xl">Stories that reflect care in motion</h2>
                 <p className="mt-5 text-base leading-8 text-slate-600">
                   These placeholder stories illustrate the kind of life-giving change made possible through faithful service, partnership, and consistent support.
                 </p>

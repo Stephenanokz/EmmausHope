@@ -20,14 +20,14 @@ import { StaggerGrid } from "@/components/ui/StaggerGrid";
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "Learn in depth about Emmaus Hope Foundation’s identity, inspiration, vision, mission, values, and commitment to restoring hope and protecting human dignity.",
+    "Learn in depth about Emmaus Care Foundation’s identity, inspiration, vision, mission, values, and commitment to restoring hope and protecting human dignity.",
   alternates: {
     canonical: "/about",
   },
   openGraph: {
-    title: "About Us | Emmaus Hope Foundation",
+    title: "About Us | Emmaus Care Foundation",
     description:
-      "Learn in depth about Emmaus Hope Foundation’s identity, inspiration, vision, mission, values, and commitment to restoring hope and protecting human dignity.",
+      "Learn in depth about Emmaus Care Foundation’s identity, inspiration, vision, mission, values, and commitment to restoring hope and protecting human dignity.",
     url: "/about",
   },
 };
@@ -37,8 +37,8 @@ export default function AboutPage() {
     <>
       <PageHero
         eyebrow="About Us"
-        title="A foundation rooted in dignity, faith, and hope-filled service"
-        description="Emmaus Hope Foundation accompanies poor and vulnerable persons with compassionate, accountable, and sustainable action shaped by Catholic Social Teaching and a commitment to human dignity."
+        title="A foundation rooted in dignity, faith, and care-filled service"
+        description="Emmaus Care Foundation accompanies poor and vulnerable persons with compassionate, accountable, and sustainable action shaped by Catholic Social Teaching and a commitment to human dignity."
       />
 
       <section className="pb-24">
@@ -68,7 +68,7 @@ export default function AboutPage() {
               <div className="relative min-h-[260px] overflow-hidden rounded-[2rem] shadow-[0_28px_70px_-36px_rgba(15,23,42,0.45)]">
                 <Image
                   src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1200&q=80"
-                  alt="Community members and volunteers sharing a hopeful moment"
+                  alt="Community members and volunteers sharing a moment"
                   fill
                   className="object-cover"
                   sizes="(min-width: 1024px) 34vw, 100vw"
@@ -80,14 +80,14 @@ export default function AboutPage() {
                   What defines us
                 </p>
                 <p className="mt-4 text-base leading-8 text-slate-600">
-                  Emmaus Hope Foundation exists to restore hope in ways that are
+                  Emmaus Care Foundation exists to restore hope in ways that are
                   relational, principled, and sustainable. We do not see people
                   as projects, but as persons deserving care, respect, and
                   meaningful opportunity. That conviction shapes not just what
                   we do, but how we do it. It also shapes how we speak about our
                   work and how we remain accountable to the people and
                   communities we serve. We are a foundation rooted in dignity,
-                  faith, and hope-filled service.
+                  faith, and care-filled service.
                 </p>
               </div>
             </div>

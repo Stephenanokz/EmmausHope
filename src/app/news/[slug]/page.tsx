@@ -93,10 +93,10 @@ export default async function NewsDetailPage({ params }: NewsDetailPageProps) {
       name: siteName,
       logo: {
         "@type": "ImageObject",
-        url: `https://emmaushopefoundation.org${siteLogoPath}`,
+        url: `https://emmauscarefoundation.org${siteLogoPath}`,
       },
     },
-    mainEntityOfPage: `https://emmaushopefoundation.org/news/${story.slug}`,
+    mainEntityOfPage: `https://emmauscarefoundation.org/news/${story.slug}`,
   };
 
   const breadcrumbSchema = {
@@ -107,19 +107,19 @@ export default async function NewsDetailPage({ params }: NewsDetailPageProps) {
         "@type": "ListItem",
         position: 1,
         name: "Home",
-        item: "https://emmaushopefoundation.org/",
+        item: "https://emmauscarefoundation.org/",
       },
       {
         "@type": "ListItem",
         position: 2,
         name: "News",
-        item: "https://emmaushopefoundation.org/news",
+        item: "https://emmauscarefoundation.org/news",
       },
       {
         "@type": "ListItem",
         position: 3,
         name: story.title,
-        item: `https://emmaushopefoundation.org/news/${story.slug}`,
+        item: `https://emmauscarefoundation.org/news/${story.slug}`,
       },
     ],
   };
@@ -229,7 +229,7 @@ export default async function NewsDetailPage({ params }: NewsDetailPageProps) {
 
                 <div className="card-surface border-orange-100/70 bg-gradient-to-br from-orange-50 via-white to-blue-50 p-6">
                   <p className="text-xs font-semibold uppercase tracking-[0.22em] text-orange-600">Keep Reading</p>
-                  <h2 className="mt-3 font-display text-2xl text-slate-950">More from Emmaus Hope</h2>
+                  <h2 className="mt-3 font-display text-2xl text-slate-950">More from Emmaus Care</h2>
                   <p className="mt-3 text-sm leading-7 text-slate-600">
                     Explore more updates, campaign moments, and community stories shaping the foundation’s work.
                   </p>

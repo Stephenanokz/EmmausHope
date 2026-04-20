@@ -136,7 +136,7 @@ export function PaginatedStories({ stories, pageSize = 6 }: PaginatedStoriesProp
         <div className="card-surface border-orange-100/70 px-6 py-10 text-center">
           <p className="text-lg font-medium text-slate-900">No stories found in this category yet.</p>
           <p className="mt-3 text-sm leading-7 text-slate-600">
-            Try another category to continue browsing updates from Emmaus Hope Foundation.
+            Try another category to continue browsing updates from Emmaus Care Foundation.
           </p>
         </div>
       )}

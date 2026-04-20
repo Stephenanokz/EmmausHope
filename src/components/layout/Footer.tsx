@@ -77,7 +77,7 @@ export function Footer() {
               })}
             </div>
             <p className="mt-5 text-sm text-slate-300">
-              Email: <a className="focus-ring rounded-sm underline decoration-white/30 underline-offset-4 hover:text-white" href="mailto:info@emmaushopefoundation.org">info@emmaushopefoundation.org</a>
+              Email: <a className="focus-ring rounded-sm underline decoration-white/30 underline-offset-4 hover:text-white" href="mailto:info@emmauscarefoundation.org">info@emmauscarefoundation.org</a>
             </p>
           </div>
         </div>

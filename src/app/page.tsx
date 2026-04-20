@@ -15,16 +15,16 @@ import { SectionHeading } from "@/components/ui/SectionHeading";
 import { StaggerGrid } from "@/components/ui/StaggerGrid";
 
 export const metadata: Metadata = {
-  title: "Emmaus Hope Foundation",
+  title: "Emmaus Care Foundation",
   description:
-    "Emmaus Hope Foundation uplifts poor and vulnerable communities through poverty reduction, hunger relief, education support, empowerment, and partnerships.",
+    "Emmaus Care Foundation uplifts poor and vulnerable communities through poverty reduction, hunger relief, education support, empowerment, and partnerships.",
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "Home | Emmaus Hope Foundation",
+    title: "Home | Emmaus Care Foundation",
     description:
-      "Emmaus Hope Foundation uplifts poor and vulnerable communities through poverty reduction, hunger relief, education support, empowerment, and partnerships.",
+      "Emmaus Care Foundation uplifts poor and vulnerable communities through poverty reduction, hunger relief, education support, empowerment, and partnerships.",
     url: "/",
   },
 };
@@ -53,7 +53,7 @@ export default function Home() {
       <ProgramsPreview />
 
       {/* Founder preview */}
-      <section className="py-20 sm:py-24">
+      {/* <section className="py-20 sm:py-24">
         <div className="section-shell">
           <Reveal>
             <div className="card-surface overflow-hidden border-orange-100/70 bg-gradient-to-br from-white via-orange-50/60 to-blue-50/70">
@@ -61,7 +61,7 @@ export default function Home() {
                 <div className="relative min-h-[320px] sm:min-h-[400px]">
                   <Image
                     src="/images/founder/founder.jpg"
-                    alt="Fr. Peter Tule Amaya-Akpala, OP — Founder of Emmaus Hope Foundation"
+                    alt="Fr. Peter Tule Amaya-Akpala, OP — Founder of Emmaus Care Foundation"
                     fill
                     className="object-cover"
                     sizes="(min-width: 1024px) 40vw, 100vw"
@@ -76,7 +76,7 @@ export default function Home() {
                     Fr. Peter Tule Amaya-Akpala, OP
                   </h2>
                   <p className="mt-5 text-base leading-8 text-slate-600 sm:text-lg">
-                    Fr. Peter Tule Amaya-Akpala, OP, is a Catholic Dominican priest dedicated to serving the poor and restoring hope. Inspired by Christ&apos;s encounter on the road to Emmaus, he founded Emmaus Hope Foundation to walk with the vulnerable and transform lives.
+                    Fr. Peter Tule Amaya-Akpala, OP, is a Catholic Dominican priest dedicated to serving the poor and restoring hope. Inspired by Christ&apos;s encounter on the road to Emmaus, he founded Emmaus Care Foundation to walk with the vulnerable and transform lives.
                   </p>
                   <Link
                     href="/founder"
@@ -90,7 +90,7 @@ export default function Home() {
             </div>
           </Reveal>
         </div>
-      </section>
+      </section> */}
       <section className="py-20 sm:py-24">
         <div className="section-shell">
           <Reveal>

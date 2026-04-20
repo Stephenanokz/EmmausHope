@@ -9,9 +9,9 @@ export function AboutSummary() {
           <div className="grid gap-8 lg:grid-cols-[1fr_0.8fr] lg:items-start">
             <div className="card-surface border-orange-100/70 px-6 py-10 sm:px-10">
               <SectionHeading
-                eyebrow="About Emmaus Hope"
+                eyebrow="About Emmaus Care"
                 title="Restoring hope with dignity-centered service"
-                description="Emmaus Hope Foundation works to uplift poor and vulnerable communities through empowerment programs, education support, hunger relief initiatives, and social inclusion programs."
+                description="Emmaus Care Foundation works to uplift poor and vulnerable communities through empowerment programs, education support, hunger relief initiatives, and social inclusion programs."
               />
             </div>
             <blockquote className="card-surface border-blue-100/70 bg-gradient-to-br from-slate-950 to-blue-950 px-6 py-10 text-white sm:px-8">

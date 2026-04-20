@@ -6,7 +6,7 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    host: "https://emmaushopefoundation.org",
-    sitemap: "https://emmaushopefoundation.org/sitemap.xml",
+    host: "https://emmauscarefoundation.org",
+    sitemap: "https://emmauscarefoundation.org/sitemap.xml",
   };
 }

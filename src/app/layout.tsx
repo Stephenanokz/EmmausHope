@@ -23,19 +23,19 @@ const playfairDisplay = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://emmaushopefoundation.org"),
+  metadataBase: new URL("https://emmauscarefoundation.org"),
   applicationName: siteName,
   title: {
     default: siteName,
     template: `%s | ${siteName}`,
   },
   description:
-    "Emmaus Hope Foundation is a faith-based non-profit restoring hope, protecting human dignity, and improving lives through sustainable humanitarian and development initiatives.",
+    "Emmaus Care Foundation is a faith-based non-profit restoring hope, protecting human dignity, and improving lives through sustainable humanitarian and development initiatives.",
   alternates: {
     canonical: "/",
   },
   keywords: [
-    "Emmaus Hope Foundation",
+    "Emmaus Care Foundation",
     "NGO",
     "humanitarian aid",
     "poverty alleviation",
@@ -50,14 +50,14 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  authors: [{ name: siteName, url: "https://emmaushopefoundation.org" }],
+  authors: [{ name: siteName, url: "https://emmauscarefoundation.org" }],
   creator: siteName,
   publisher: siteName,
   openGraph: {
     title: siteName,
     description:
-      "Leaving No One Behind - By Giving Them Hope through sustainable, faith-driven humanitarian action.",
-    url: "https://emmaushopefoundation.org",
+      "Leaving No One Behind - By Giving Them Care through sustainable, faith-driven humanitarian action.",
+    url: "https://emmauscarefoundation.org",
     siteName,
     type: "website",
     locale: "en_NG",
@@ -89,8 +89,8 @@ const organizationSchema = {
   "@type": "NGO",
   name: siteName,
   slogan: siteMotto,
-  url: "https://emmaushopefoundation.org",
-  logo: `https://emmaushopefoundation.org${siteLogoPath}`,
+  url: "https://emmauscarefoundation.org",
+  logo: `https://emmauscarefoundation.org${siteLogoPath}`,
   email: `mailto:${contactDetails[0]?.description}`,
   telephone: contactDetails[1]?.description,
   address: {

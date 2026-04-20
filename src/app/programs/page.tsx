@@ -11,14 +11,14 @@ import { StaggerGrid } from "@/components/ui/StaggerGrid";
 export const metadata: Metadata = {
   title: "Programs",
   description:
-    "Explore Emmaus Hope Foundation programs focused on poverty alleviation, hunger relief, education support, women empowerment, dignity, and sustainable development partnerships.",
+    "Explore Emmaus Care Foundation programs focused on poverty alleviation, hunger relief, education support, women empowerment, dignity, and sustainable development partnerships.",
   alternates: {
     canonical: "/programs",
   },
   openGraph: {
-    title: "Programs | Emmaus Hope Foundation",
+    title: "Programs | Emmaus Care Foundation",
     description:
-      "Explore Emmaus Hope Foundation programs focused on poverty alleviation, hunger relief, education support, women empowerment, dignity, and sustainable development partnerships.",
+      "Explore Emmaus Care Foundation programs focused on poverty alleviation, hunger relief, education support, women empowerment, dignity, and sustainable development partnerships.",
     url: "/programs",
   },
 };
@@ -28,8 +28,8 @@ export default function ProgramsPage() {
     <>
       <PageHero
         eyebrow="Programs"
-        title="Programs designed for relief, resilience, and lasting hope"
-        description="Each Emmaus Hope Foundation program responds to urgent need while laying the groundwork for stronger, more dignified futures."
+        title="Programs designed for relief, resilience, and lasting care"
+        description="Each Emmaus Care Foundation program responds to urgent need while laying the groundwork for stronger, more dignified futures."
       />
 
       <section className="pb-24">
@@ -37,7 +37,7 @@ export default function ProgramsPage() {
           <ImageFeatureSection
             eyebrow="Program Model"
             title="Our programs are built to respond compassionately and grow sustainably"
-            description="Emmaus Hope Foundation approaches programming as a continuum. We meet urgent needs with care, then build toward stability, inclusion, and opportunities that can endure beyond a single intervention."
+            description="Emmaus Care Foundation approaches programming as a continuum. We meet urgent needs with care, then build toward stability, inclusion, and opportunities that can endure beyond a single intervention."
             image="https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?auto=format&fit=crop&w=1200&q=80"
             alt="Team members engaging a community during a program visit"
             surfaceClassName="from-white via-orange-50/70 to-blue-50/55"

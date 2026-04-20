@@ -10,14 +10,14 @@ import { StaggerGrid } from "@/components/ui/StaggerGrid";
 export const metadata: Metadata = {
   title: "Partnerships",
   description:
-    "Learn how Emmaus Hope Foundation collaborates with churches, government agencies, NGOs, corporate partners, and international development partners.",
+    "Learn how Emmaus Care Foundation collaborates with churches, government agencies, NGOs, corporate partners, and international development partners.",
   alternates: {
     canonical: "/partnerships",
   },
   openGraph: {
-    title: "Partnerships | Emmaus Hope Foundation",
+    title: "Partnerships | Emmaus Care Foundation",
     description:
-      "Learn how Emmaus Hope Foundation collaborates with churches, government agencies, NGOs, corporate partners, and international development partners.",
+      "Learn how Emmaus Care Foundation collaborates with churches, government agencies, NGOs, corporate partners, and international development partners.",
     url: "/partnerships",
   },
 };
@@ -36,7 +36,7 @@ export default function PartnershipsPage() {
           <ImageFeatureSection
             eyebrow="Collaborate With Us"
             title="Partnerships help compassionate intentions become coordinated, durable action"
-            description="Emmaus Hope Foundation welcomes partnerships that strengthen local reach, deepen program quality, and increase the sustainability of work done for poor and vulnerable communities."
+            description="Emmaus Care Foundation welcomes partnerships that strengthen local reach, deepen program quality, and increase the sustainability of work done for poor and vulnerable communities."
             image="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80"
             alt="Partners gathered around a table in discussion"
             surfaceClassName="from-white via-blue-50/70 to-cyan-50/55"
@@ -63,7 +63,7 @@ export default function PartnershipsPage() {
               <SectionHeading
                 eyebrow="Why Partnership Matters"
                 title="Shared responsibility produces deeper, more sustainable impact"
-                description="Through collaboration, Emmaus Hope Foundation can extend reach, improve program quality, strengthen accountability, and serve vulnerable communities with better coordination and stronger local ownership."
+                description="Through collaboration, Emmaus Care Foundation can extend reach, improve program quality, strengthen accountability, and serve vulnerable communities with better coordination and stronger local ownership."
               />
             </div>
           </Reveal>

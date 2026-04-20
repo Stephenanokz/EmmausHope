@@ -9,14 +9,14 @@ import { Reveal } from "@/components/ui/Reveal";
 export const metadata: Metadata = {
   title: "News & Stories",
   description:
-    "Read placeholder news, outreach updates, empowerment initiatives, community projects, success stories, and campaign highlights from Emmaus Hope Foundation.",
+    "Read placeholder news, outreach updates, empowerment initiatives, community projects, success stories, and campaign highlights from Emmaus Care Foundation.",
   alternates: {
     canonical: "/news",
   },
   openGraph: {
-    title: "News & Stories | Emmaus Hope Foundation",
+    title: "News & Stories | Emmaus Care Foundation",
     description:
-      "Read placeholder news, outreach updates, empowerment initiatives, community projects, success stories, and campaign highlights from Emmaus Hope Foundation.",
+      "Read placeholder news, outreach updates, empowerment initiatives, community projects, success stories, and campaign highlights from Emmaus Care Foundation.",
     url: "/news",
   },
 };
@@ -29,7 +29,7 @@ export default function NewsPage() {
     <>
       <PageHero
         eyebrow="News & Stories"
-        title="Updates from the journey of hope, service, and community"
+        title="Updates from the journey of care, hope, service, and community"
         description="A blog-style collection of placeholder updates highlighting outreach programs, empowerment initiatives, community projects, success stories, and campaigns."
       />
 

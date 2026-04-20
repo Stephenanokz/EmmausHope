@@ -5,14 +5,14 @@ import { Reveal } from "@/components/ui/Reveal";
 export const metadata: Metadata = {
   title: "Meet Our Founder",
   description:
-    "Fr. Peter Tule Amaya-Akpala, OP, is a Catholic Dominican priest who founded Emmaus Hope Foundation to walk with the vulnerable and transform lives through faith-driven humanitarian action.",
+    "Fr. Peter Tule Amaya-Akpala, OP, is a Catholic Dominican priest who founded Emmaus Care Foundation to walk with the vulnerable and transform lives through faith-driven humanitarian action.",
   alternates: {
     canonical: "/founder",
   },
   openGraph: {
-    title: "Meet Our Founder | Emmaus Hope Foundation",
+    title: "Meet Our Founder | Emmaus Care Foundation",
     description:
-      "Fr. Peter Tule Amaya-Akpala, OP, is a Catholic Dominican priest who founded Emmaus Hope Foundation to walk with the vulnerable and transform lives.",
+      "Fr. Peter Tule Amaya-Akpala, OP, is a Catholic Dominican priest who founded Emmaus Care Foundation to walk with the vulnerable and transform lives.",
     url: "/founder",
   },
 };
@@ -30,7 +30,7 @@ export default function FounderPage() {
                 <div className="relative min-h-[360px] sm:min-h-[460px]">
                   <Image
                     src="/images/founder/founder.jpg"
-                    alt="Fr. Peter Tule Amaya-Akpala, OP — Founder of Emmaus Hope Foundation"
+                    alt="Fr. Peter Tule Amaya-Akpala, OP — Founder of Emmaus Care Foundation"
                     fill
                     priority
                     className="object-cover"
@@ -62,7 +62,7 @@ export default function FounderPage() {
             <article className="mx-auto max-w-4xl">
               <div className="story-rich-content">
                 <p>
-                  Fr. Peter Tule Amaya-Akpala, OP, is a Catholic Dominican priest dedicated to serving the poor and restoring hope. Inspired by Christ&apos;s encounter on the road to Emmaus, he founded Emmaus Hope Foundation to walk with the vulnerable and transform lives.
+                  Fr. Peter Tule Amaya-Akpala, OP, is a Catholic Dominican priest dedicated to serving the poor and restoring hope. Inspired by Christ&apos;s encounter on the road to Emmaus, he founded Emmaus Care Foundation to walk with the vulnerable and transform lives.
                 </p>
 
                 <p>
@@ -74,7 +74,7 @@ export default function FounderPage() {
                 </p>
 
                 <p>
-                  In response to the growing realities of poverty, hunger, inequality, and lack of opportunity affecting millions in Nigeria, Fr. Peter founded <em>Emmaus Hope Foundation</em>. The Foundation is a faith-driven humanitarian and development initiative committed to &ldquo;leaving no one behind&rdquo; by sharing resources, empowering lives, and creating pathways for sustainable growth.
+                  In response to the growing realities of poverty, hunger, inequality, and lack of opportunity affecting millions in Nigeria, Fr. Peter founded <em>Emmaus Care Foundation</em>. The Foundation is a faith-driven humanitarian and development initiative committed to &ldquo;leaving no one behind&rdquo; by sharing resources, empowering lives, and creating pathways for sustainable growth.
                 </p>
 
                 <p>
@@ -94,7 +94,7 @@ export default function FounderPage() {
                 </blockquote>
 
                 <p>
-                  Through his ministry and leadership, Fr. Peter Tule Amaya-Akpala, OP, is not only changing lives, not only building a movement of hope, compassion, and transformation — he is winning souls for Christ through the Emmaus Hope Foundation.
+                  Through his ministry and leadership, Fr. Peter Tule Amaya-Akpala, OP, is not only changing lives, not only building a movement of care, compassion, and transformation — he is winning souls for Christ through the Emmaus Care Foundation.
                 </p>
               </div>
             </article>

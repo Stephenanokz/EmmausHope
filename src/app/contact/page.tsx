@@ -9,14 +9,14 @@ import { StaggerGrid } from "@/components/ui/StaggerGrid";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Contact Emmaus Hope Foundation by email, phone, or message to discuss donations, volunteering, partnerships, or general inquiries.",
+    "Contact Emmaus Care Foundation by email, phone, or message to discuss donations, volunteering, partnerships, or general inquiries.",
   alternates: {
     canonical: "/contact",
   },
   openGraph: {
-    title: "Contact | Emmaus Hope Foundation",
+    title: "Contact | Emmaus Care Foundation",
     description:
-      "Contact Emmaus Hope Foundation by email, phone, or message to discuss donations, volunteering, partnerships, or general inquiries.",
+      "Contact Emmaus Care Foundation by email, phone, or message to discuss donations, volunteering, partnerships, or general inquiries.",
     url: "/contact",
   },
 };
@@ -26,7 +26,7 @@ export default function ContactPage() {
     <>
       <PageHero
         eyebrow="Contact"
-        title="Start a conversation with Emmaus Hope Foundation"
+        title="Start a conversation with Emmaus Care Foundation"
         description="We would be glad to hear from donors, volunteers, churches, NGOs, public institutions, and anyone interested in supporting this mission."
       />
 

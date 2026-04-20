@@ -12,14 +12,14 @@ import { StaggerGrid } from "@/components/ui/StaggerGrid";
 export const metadata: Metadata = {
   title: "Get Involved",
   description:
-    "Volunteer, partner, or become a donor with Emmaus Hope Foundation and help expand faith-driven humanitarian impact.",
+    "Volunteer, partner, or become a donor with Emmaus Care Foundation and help expand faith-driven humanitarian impact.",
   alternates: {
     canonical: "/get-involved",
   },
   openGraph: {
-    title: "Get Involved | Emmaus Hope Foundation",
+    title: "Get Involved | Emmaus Care Foundation",
     description:
-      "Volunteer, partner, or become a donor with Emmaus Hope Foundation and help expand faith-driven humanitarian impact.",
+      "Volunteer, partner, or become a donor with Emmaus Care Foundation and help expand faith-driven humanitarian impact.",
     url: "/get-involved",
   },
 };
@@ -30,7 +30,7 @@ export default function GetInvolvedPage() {
       <PageHero
         eyebrow="Get Involved"
         title="Bring your time, resources, and influence into service"
-        description="There are multiple ways to stand with Emmaus Hope Foundation as we serve poor and vulnerable communities with dignity-centered care."
+        description="There are multiple ways to stand with Emmaus Care Foundation as we serve poor and vulnerable communities with dignity-centered care."
       />
 
       <section className="pb-24">
@@ -38,7 +38,7 @@ export default function GetInvolvedPage() {
           <ImageFeatureSection
             eyebrow="Serve With Us"
             title="There is a place for practical compassion, professional skill, and generous partnership"
-            description="Getting involved with Emmaus Hope Foundation means joining work that is relational, accountable, and oriented toward restoring hope in tangible ways."
+            description="Getting involved with Emmaus Care Foundation means joining work that is relational, accountable, and oriented toward restoring hope in tangible ways."
             image="https://images.unsplash.com/photo-1559027615-cd4628902d4a?auto=format&fit=crop&w=1200&q=80"
             alt="Volunteers working together during a community support event"
             surfaceClassName="from-white via-orange-50/60 to-rose-50/55"

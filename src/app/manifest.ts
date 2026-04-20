@@ -4,7 +4,7 @@ import { siteLogoPath, siteName } from "@/lib/content";
 export default function manifest(): MetadataRoute.Manifest {
   return {
     name: siteName,
-    short_name: "Emmaus Hope",
+    short_name: "Emmaus Care",
     description:
       "Faith-driven humanitarian initiatives that restore hope, uphold dignity, and strengthen vulnerable communities.",
     start_url: "/",

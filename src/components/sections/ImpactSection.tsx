@@ -13,7 +13,7 @@ export function ImpactSection() {
                   Impact Vision
                 </p>
                 <h2 className="mt-4 font-display text-3xl leading-tight sm:text-4xl lg:text-5xl">
-                  Through faith-driven service and sustainable programs, Emmaus Hope Foundation strives to ensure that no one is left behind.
+                  Through faith-driven service and sustainable programs, Emmaus Care Foundation strives to ensure that no one is left behind.
                 </h2>
               </div>
               <div>

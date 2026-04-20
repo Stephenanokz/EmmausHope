@@ -52,8 +52,8 @@ export type AboutSection = {
   description: string;
 };
 
-export const siteName = "Emmaus Hope Foundation";
-export const siteMotto = "Leaving No One Behind - By Giving Them Hope";
+export const siteName = "Emmaus Care Foundation";
+export const siteMotto = "Leaving No One Behind - By Giving Them Care";
 export const siteLogoPath = "/images/logos/logo.png";
 
 export const navItems: NavItem[] = [
@@ -70,7 +70,7 @@ export const navItems: NavItem[] = [
 
 export const aboutMenuItems: NavItem[] = [
   { label: "About Us", href: "/about" },
-  { label: "Our Founder", href: "/founder" },
+  // { label: "Our Founder", href: "/founder" },
   { label: "Programs", href: "/programs" },
   { label: "Impact", href: "/impact" },
 ];
@@ -93,7 +93,7 @@ export const navGroups: NavGroup[] = [
 
 export const footerLinks: NavItem[] = [
   { label: "About Us", href: "/about" },
-  { label: "Our Founder", href: "/founder" },
+  // { label: "Our Founder", href: "/founder" },
   { label: "Programs", href: "/programs" },
   { label: "Get Involved", href: "/get-involved" },
   { label: "Donate", href: "/donate" },
@@ -208,7 +208,7 @@ export const programs: Program[] = [
 export const aboutWhoWeAre = {
   title: "Who We Are",
   description:
-    "Emmaus Hope Foundation is a faith-based, non-profit, non-government organization established to promote human dignity, restore hope, and improve the quality of life of poor and vulnerable persons. We work at the intersection of compassion, development, and accountability so that people facing poverty, exclusion, or hardship are met not merely with charity, but with pathways toward dignity and lasting wellbeing.",
+    "Emmaus Care Foundation is a faith-based, non-profit, non-government organization established to promote human dignity, restore hope, and improve the quality of life of poor and vulnerable persons. We work at the intersection of compassion, development, and accountability so that people facing poverty, exclusion, or hardship are met not merely with charity, but with pathways toward dignity and lasting wellbeing.",
 };
 
 export const aboutFoundations: IconCardItem[] = [
@@ -347,9 +347,9 @@ export const aboutCommitments: AboutSection[] = [
       "We begin by listening, learning context, and honoring the lived realities of the communities we serve before deciding how best to intervene.",
   },
   {
-    title: "Hope with practical substance",
+    title: "Care with practical substance",
     description:
-      "For us, hope is not abstract language. It must be visible in food on the table, children in school, women with opportunity, and vulnerable persons treated with dignity.",
+      "For us, care is not abstract language. It must be visible in food on the table, children in school, women with opportunity, and vulnerable persons treated with dignity.",
   },
   {
     title: "Service with accountability",
@@ -406,7 +406,7 @@ export const volunteerRoles: IconCardItem[] = [
   {
     title: "Advocates and mobilizers",
     description:
-      "Help spread awareness, rally support, and connect Emmaus Hope Foundation to new communities of generosity and partnership.",
+      "Help spread awareness, rally support, and connect Emmaus Care Foundation to new communities of generosity and partnership.",
     icon: "Globe",
   },
   {
@@ -566,9 +566,9 @@ const storyLibrary: Story[] = [
       "https://images.unsplash.com/photo-1559027615-cd4628902d4a?auto=format&fit=crop&w=1200&q=80",
     publishedAt: "2026-03-12",
     readTime: "5 min read",
-    author: "Emmaus Hope Editorial Team",
+    author: "Emmaus Care Editorial Team",
     paragraphs: [
-      "Emmaus Hope Foundation recently extended outreach activities into additional underserved households, combining practical support with attentive listening and community presence.",
+      "Emmaus Care Foundation recently extended outreach activities into additional underserved households, combining practical support with attentive listening and community presence.",
       "The outreach reflected the foundation’s commitment to dignity-centered service by ensuring that assistance was delivered relationally rather than mechanically. Volunteers spent time listening to families, understanding local pressures, and responding with care that felt personal and respectful.",
       "Moments like this continue to reinforce the belief that restoring hope requires more than material support alone. It also requires presence, trust, and the assurance that vulnerable persons are not forgotten.",
     ],
@@ -613,7 +613,7 @@ const storyLibrary: Story[] = [
     readTime: "4 min read",
     author: "Education Support Team",
     paragraphs: [
-      "Ahead of the new academic term, Emmaus Hope Foundation supported an education-focused drive designed to reduce common barriers that keep vulnerable children from fully participating in school.",
+      "Ahead of the new academic term, Emmaus Care Foundation supported an education-focused drive designed to reduce common barriers that keep vulnerable children from fully participating in school.",
       "The effort brought together encouragement, school-related support, and community mobilization in ways that reminded families they are not alone in carrying the burden of educational continuity.",
       "Beyond immediate supplies, the initiative also reinforced the foundation’s larger belief that education remains one of the clearest pathways toward long-term dignity and opportunity.",
     ],
@@ -624,10 +624,10 @@ const storyLibrary: Story[] = [
     ],
   }),
   createStory({
-    slug: "success-story-spotlight-hope-restored",
-    title: "Success Story Spotlight: Hope Restored",
+    slug: "success-story-spotlight-care-restored",
+    title: "Success Story Spotlight: Care Restored",
     excerpt:
-      "A family’s journey from instability to renewed hope illustrates what consistent accompaniment and practical support can do.",
+      "A family’s journey from instability to renewed care illustrates what consistent accompaniment and practical support can do.",
     category: "Success Stories",
     image:
       "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=1200&q=80",
@@ -637,11 +637,11 @@ const storyLibrary: Story[] = [
     paragraphs: [
       "One family recently reflected on a season when uncertainty had almost eclipsed their sense of possibility. Through timely support and steady accompaniment, that season slowly gave way to renewed stability and hope.",
       "Their story is a reminder that transformation often happens through ordinary but faithful gestures: showing up, listening carefully, responding responsibly, and staying present long enough for people to recover confidence.",
-      "Emmaus Hope Foundation sees stories like this as signs that dignity-centered care can have practical, life-giving effects when it is sustained with compassion and accountability.",
+      "Emmaus Care Foundation sees stories like this as signs that dignity-centered care can have practical, life-giving effects when it is sustained with compassion and accountability.",
     ],
     keyPoints: [
       "Accompaniment was as important as practical support",
-      "Hope was restored through steady, relational intervention",
+      "Care was restored through steady, relational intervention",
       "The journey highlights the value of consistent follow-through",
     ],
   }),
@@ -679,7 +679,7 @@ const storyLibrary: Story[] = [
     readTime: "4 min read",
     author: "Monitoring and Learning Desk",
     paragraphs: [
-      "Follow-up field visits continue to play an important role in how Emmaus Hope Foundation listens, learns, and remains accountable after interventions are delivered.",
+      "Follow-up field visits continue to play an important role in how Emmaus Care Foundation listens, learns, and remains accountable after interventions are delivered.",
       "These visits help the team understand what has changed, what remains difficult, and how future support can become more responsive to lived realities on the ground.",
       "By returning to communities and paying attention to outcomes and relationships, the foundation strengthens the trust necessary for meaningful long-term impact.",
     ],
@@ -702,7 +702,7 @@ const storyLibrary: Story[] = [
     author: "Relief Response Team",
     paragraphs: [
       "A coordinated feeding outreach recently reached children and caregivers experiencing significant food pressure, offering both practical support and encouragement during a difficult period.",
-      "The intervention reflected Emmaus Hope Foundation’s conviction that hunger relief should be delivered with dignity, care, and attentiveness to the wider realities affecting households.",
+      "The intervention reflected Emmaus Care Foundation’s conviction that hunger relief should be delivered with dignity, care, and attentiveness to the wider realities affecting households.",
       "Beyond the meals themselves, the outreach created moments of reassurance for families who needed to know they were not facing hardship alone.",
     ],
     keyPoints: [
@@ -725,7 +725,7 @@ const storyLibrary: Story[] = [
     paragraphs: [
       "Youth mentoring sessions are helping participants reflect on their gifts, responsibilities, and possible futures with new confidence.",
       "The gatherings create space for practical guidance, emotional encouragement, and the kind of relational support that helps young people navigate uncertainty with greater hope.",
-      "Emmaus Hope Foundation sees mentoring as part of a broader commitment to protecting dignity by ensuring that young people are not left to struggle alone.",
+      "Emmaus Care Foundation sees mentoring as part of a broader commitment to protecting dignity by ensuring that young people are not left to struggle alone.",
     ],
     keyPoints: [
       "Mentorship combines guidance and encouragement",
@@ -770,7 +770,7 @@ const storyLibrary: Story[] = [
     paragraphs: [
       "Church partners continue to play a meaningful role in extending the reach of compassionate service through volunteering, local visibility, and resource support.",
       "These collaborations show how faith communities can help identify need, build trust, and strengthen the relational foundations that humanitarian work depends on.",
-      "For Emmaus Hope Foundation, such partnerships remain essential to delivering support that is both locally grounded and spiritually meaningful.",
+      "For Emmaus Care Foundation, such partnerships remain essential to delivering support that is both locally grounded and spiritually meaningful.",
     ],
     keyPoints: [
       "Churches support both reach and trust",
@@ -834,7 +834,7 @@ const storyLibrary: Story[] = [
     readTime: "5 min read",
     author: "Field Learning Team",
     paragraphs: [
-      "Listening visits are helping Emmaus Hope Foundation ground its planning more deeply in what communities actually say they need.",
+      "Listening visits are helping Emmaus Care Foundation ground its planning more deeply in what communities actually say they need.",
       "These conversations provide more than information. They create trust, reveal nuance, and challenge assumptions that can weaken program design when left unexamined.",
       "The foundation continues to treat listening as a core practice because durable support begins with understanding people’s realities before prescribing solutions.",
     ],
@@ -858,7 +858,7 @@ const storyLibrary: Story[] = [
     paragraphs: [
       "A seasonal giving campaign recently invited donors and partners to participate in practical, transparent support for vulnerable communities.",
       "The campaign emphasized stewardship, shared responsibility, and the idea that generosity can become more meaningful when it is connected to clear purpose and trusted relationships.",
-      "Emmaus Hope Foundation continues to see campaigns like this as opportunities not only to raise support, but also to deepen mutual understanding between the mission and the people who sustain it.",
+      "Emmaus Care Foundation continues to see campaigns like this as opportunities not only to raise support, but also to deepen mutual understanding between the mission and the people who sustain it.",
     ],
     keyPoints: [
       "Giving was framed as shared mission participation",
@@ -880,7 +880,7 @@ const storyLibrary: Story[] = [
     paragraphs: [
       "A vulnerable learner recently returned to school after receiving timely educational support that eased a difficult family burden.",
       "The return represented more than a resumed school routine. It marked the restoration of confidence, belonging, and the sense that a hopeful future was still worth pursuing.",
-      "Emmaus Hope Foundation continues to see school continuity as one of the clearest expressions of dignity-centered investment in the lives of children and families.",
+      "Emmaus Care Foundation continues to see school continuity as one of the clearest expressions of dignity-centered investment in the lives of children and families.",
     ],
     keyPoints: [
       "Educational support reduced a major barrier to attendance",
@@ -926,7 +926,7 @@ const storyLibrary: Story[] = [
     paragraphs: [
       "A skills-focused empowerment effort recently opened new possibilities for participants by combining training, encouragement, and stronger social support.",
       "For many women, the experience was valuable not only because of the practical knowledge gained, but because it strengthened confidence and affirmed that growth was possible even after difficult circumstances.",
-      "Emmaus Hope Foundation remains committed to the kind of empowerment that supports both livelihood potential and personal dignity.",
+      "Emmaus Care Foundation remains committed to the kind of empowerment that supports both livelihood potential and personal dignity.",
     ],
     keyPoints: [
       "Skills development increased confidence and possibility",
@@ -978,7 +978,7 @@ export const socialLinks = [
 export const contactDetails: IconCardItem[] = [
   {
     title: "Email",
-    description: "info@emmaushopefoundation.org",
+    description: "info@emmauscarefoundation.org",
     icon: "Mail",
   },
   {

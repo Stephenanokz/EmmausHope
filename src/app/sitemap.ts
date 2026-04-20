@@ -16,14 +16,14 @@ const routes = [
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes = routes.map((route) => ({
-    url: `https://emmaushopefoundation.org${route}`,
+    url: `https://emmauscarefoundation.org${route}`,
     lastModified: new Date(),
     changeFrequency: route === "" ? ("weekly" as const) : ("monthly" as const),
     priority: route === "" ? 1 : 0.8,
   }));
 
   const storyRoutes = newsStories.map((story) => ({
-    url: `https://emmaushopefoundation.org/news/${story.slug}`,
+    url: `https://emmauscarefoundation.org/news/${story.slug}`,
     lastModified: new Date(story.publishedAt),
     changeFrequency: "monthly" as const,
     priority: 0.7,

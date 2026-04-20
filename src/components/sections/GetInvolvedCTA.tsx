@@ -13,7 +13,7 @@ export function GetInvolvedCTA() {
           <div className="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
             <SectionHeading
               eyebrow="Get Involved"
-              title="Join the people helping hope reach further"
+              title="Join the people helping care reach further"
               description="Whether you volunteer, partner, or donate, your support helps us accompany vulnerable communities with practical compassion."
             />
             <Link

@@ -11,14 +11,14 @@ import { StaggerGrid } from "@/components/ui/StaggerGrid";
 export const metadata: Metadata = {
   title: "Donate",
   description:
-    "Support Emmaus Hope Foundation through donor-friendly giving that funds feeding programs, scholarships, skills training, and women empowerment initiatives.",
+    "Support Emmaus Care Foundation through donor-friendly giving that funds feeding programs, scholarships, skills training, and women empowerment initiatives.",
   alternates: {
     canonical: "/donate",
   },
   openGraph: {
-    title: "Donate | Emmaus Hope Foundation",
+    title: "Donate | Emmaus Care Foundation",
     description:
-      "Support Emmaus Hope Foundation through donor-friendly giving that funds feeding programs, scholarships, skills training, and women empowerment initiatives.",
+      "Support Emmaus Care Foundation through donor-friendly giving that funds feeding programs, scholarships, skills training, and women empowerment initiatives.",
     url: "/donate",
   },
 };
@@ -28,8 +28,8 @@ export default function DonatePage() {
     <>
       <PageHero
         eyebrow="Donate"
-        title="Give today so hope can reach further tomorrow"
-        description="Your support helps Emmaus Hope Foundation respond to urgent needs while investing in education, empowerment, and sustainable community transformation."
+        title="Give today so care can reach further tomorrow"
+        description="Your support helps Emmaus Care Foundation respond to urgent needs while investing in education, empowerment, and sustainable community transformation."
       />
 
       <section className="pb-24">
@@ -86,7 +86,7 @@ export default function DonatePage() {
                 </p>
               </div>
               <Link
-                href="mailto:info@emmaushopefoundation.org"
+                href="mailto:info@emmauscarefoundation.org"
                 className="focus-ring mt-6 inline-flex items-center justify-center rounded-full bg-white px-6 py-3 text-sm font-semibold text-slate-950 hover:-translate-y-0.5 hover:bg-slate-100 lg:mt-0"
               >
                 Discuss a giving plan

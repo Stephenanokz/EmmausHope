@@ -50,7 +50,7 @@ export function VolunteerForm() {
       <p className="text-sm font-semibold uppercase tracking-[0.22em] text-orange-600">Register Your Interest</p>
       <h3 className="mt-2 font-display text-3xl text-slate-950 sm:text-4xl">Volunteer with us</h3>
       <p className="mt-3 text-sm leading-7 text-slate-600">
-        Fill out this form and our team will reach out to discuss how you can best serve with Emmaus Hope Foundation.
+        Fill out this form and our team will reach out to discuss how you can best serve with Emmaus Care Foundation.
       </p>
 
       {result && (
