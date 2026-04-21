@@ -16,4 +16,4 @@ export const RECIPIENT_EMAIL = "info@emmauscarefoundation.org";
  * "noreply@emmauscarefoundation.org"
  */
 export const SENDER_EMAIL =
-  process.env.RESEND_FROM_EMAIL ?? "Emmaus Care Foundation <onboarding@resend.dev>";
+  process.env.RESEND_FROM_EMAIL ?? "Emmaus Care Foundation <noreply@emmauscarefoundation.org";
